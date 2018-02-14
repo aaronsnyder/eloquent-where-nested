@@ -1,0 +1,21 @@
+{
+  "name": "aaronsnyder/eloquent-where-nested",
+  "description":
+    "Provides an easy interface to quickly add nested where conditions to an eloquent query builder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aaron Snyder",
+      "email": "a453803@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AaronSnyder\\EloquentWhereNested\\EloquentWhereNestedServiceProvider"
+      ]
+    }
+  }
+}
